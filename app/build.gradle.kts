@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId = "com.pablo.todoapp"
-        minSdk = 24
+        minSdk = 25
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -64,6 +64,7 @@ dependencies {
     implementation("androidx.compose.material3:material3")
 
     implementation ("com.google.dagger:hilt-android:2.48")
+    implementation("androidx.wear.compose:compose-material:1.3.0")
     kapt ("com.google.dagger:hilt-android-compiler:2.48")
 
     implementation ("androidx.room:room-runtime:2.6.1")
